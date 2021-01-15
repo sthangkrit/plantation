@@ -1,0 +1,14 @@
+adduser 
+    {	  
+		"ID": "1102400125924",
+        "NAME": "popsan aemaos",
+        "TEL": "0819423743"
+    } 
+
+ plantation
+    {	  
+		"PlantID": "1234567890",
+        "Location": "KMITL",
+        "OwnerID": "1104200125924"
+        "InProgress" :true
+    }    

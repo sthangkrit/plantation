@@ -1,0 +1,30 @@
+{
+  "name": "plantation",
+  "version": "1.0.0",
+  "description": "Lab Team => 8 person API : nodeJS API Document : PostMan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/CSBlockchainKmitl/plantation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/CSBlockchainKmitl/plantation/issues"
+  },
+  "homepage": "https://gitlab.com/CSBlockchainKmitl/plantation#README",
+  "dependencies": {
+    "date-and-time": "^0.7.0",
+    "dateformat": "^3.0.3",
+    "express": "^4.17.1",
+    "mariadb": "^2.0.5",
+    "moment": "^2.24.0",
+    "mongoose": "^5.5.14",
+    "nodemon": "^1.19.1"
+  }
+}

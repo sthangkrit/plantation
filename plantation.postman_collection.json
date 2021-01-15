@@ -1,0 +1,162 @@
+{
+	"info": {
+		"_postman_id": "b61ecd05-3a72-4f70-9128-df5e6163fe74",
+		"name": "plantation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "addUser",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n{\n\t \"ID\" : \"BBBBBBBBBBBBC\",\n\t \"NAME\" : \"Pichaiporn\",\n\t \"TEL\" : \"0392032032\"\n\t \n} \n\n"
+				},
+				"url": {
+					"raw": "http://localhost:8000/adduser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"adduser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addPlan",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n                \"PlantID\" : ,\n                \"Location\": ,\n                \"OwnerID\" : (),\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8000/plan",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"plan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addPlantation",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8000/plantation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"plantation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "proGresses",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"progressID\": \"test3\",\n\"plantationID\": \"1111111111\",\n\"planID\":\"plant2\",\n\"member\": [\n{\"userID\" :\"1111111111111\"},\n{\"userID\" :\"2222222222222\"}\n],\n\"action\" : [ ],\n\"endorse\": [ ],\n\"status\": \"Process\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8000/progresstime",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"progresstime"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "proDucts",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "checkEvent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateEvent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
